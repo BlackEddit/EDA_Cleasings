@@ -1,0 +1,8 @@
+df.columnName.mean() # Average of all values in column
+df.columnName.std() # Standard deviation of column
+df.columnName.median() # Median value of column
+df.columnName.max() # Maximum value in column
+df.columnName.min() # Minimum value in column
+df.columnName.count() # Number of values in column
+df.columnName.nunique() # Number of unique values in column
+df.columnName.unique() # List of unique values in column
