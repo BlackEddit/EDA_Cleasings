@@ -1,0 +1,48 @@
+
+
+
+1.Verificación de Calidad de los Datos (Data Quality Check)
+
+    - Datos Faltantes: Verifica si hay datos faltantes y decide cómo manejarlos (eliminar, imputar, etc.).
+
+    - Datos Duplicados: Asegúrate de que no haya filas duplicadas que puedan sesgar tu análisis.
+
+
+2. Consistencia y Formato
+
+    - Tipos de Datos: Asegúrate de que cada columna tenga el tipo de datos correcto (e.g., numérico, categórico, fecha).
+
+    - Normalización: Por ejemplo, si estás trabajando con texto, asegúrate de que todo esté en el mismo formato (mayúsculas/minúsculas).
+    
+                Min-Max Scaling: Transforma los datos en un rango específico, generalmente [0,1].
+                Z-Score Normalization (Standardization): Convierte los datos en una distribución con media 0 y desviación estándar 1.
+                Log Transformation: Útil para datos muy sesgados.
+
+3. Validez y Precisión
+
+    - Límites y Escalas: Verifica si los datos caen dentro de los rangos esperados y si las escalas son consistentes.
+    
+    - Datos Atípicos (Outliers): Identifica y decide cómo tratarlos.
+
+                Identificación: Utiliza gráficos de caja (box plots), histogramas o técnicas estadísticas para identificar outliers.
+                Truncamiento: Limita los outliers a un valor máximo y mínimo.
+                Transformación: Utiliza transformaciones logarítmicas o raíz cuadrada para atenuar el efecto de outliers.   
+                Eliminación: En casos extremos, simplemente elimina los outliers.
+                Imputación: Sustituye los outliers con estadísticas como la media o la mediana.
+
+4. Integridad y Coherencia
+
+    - Relaciones entre Columnas: Si hay columnas que deben sumar 100% o si una columna depende de otra, verifica que estos requisitos se cumplan.
+
+    - Valores Únicos: Por ejemplo, si tienes un ID para cada encuesta, verifica que sea único.
+
+5. Desambiguación
+
+    - Si tienes columnas con etiquetas o categorías similares, asegúrate de que estén claramente diferenciadas y sean comprensibles.
+    
+6.  Reestructuración
+
+    - Pivot o Melt: Dependiendo de cómo quieras analizar los datos, podrías necesitar reestructurar el DataFrame
+
+                Pivot: Convierte datos de formato largo a ancho. Útil cuando quieres ver cómo se distribuyen diferentes variables para cada observación única.
+                Melt (o melt en pandas): Convierte datos de formato ancho a largo. Útil cuando necesitas hacer el conjunto de datos más manejable para ciertos tipos de análisis.
