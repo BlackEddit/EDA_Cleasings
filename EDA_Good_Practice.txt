@@ -1,0 +1,38 @@
+
+
+Análisis Exploratorio de Datos (EDA) 🕵️‍♀️
+
+
+1. Análisis Univariable 📊
+
+            - Estadísticas Descriptivas: Calcula medidas como la media, mediana, rango, etc.
+            -Visualización: Histogramas, gráficos de barras, box plots.
+
+2. Análisis Bivariable 🌐
+
+            - Correlación: Coeficientes de correlación, mapas de calor.
+            - Visualización: Scatter plots, gráficos de barras apiladas, gráficos de violín.
+
+3. Análisis Multivariable 🌍
+
+            - Visualización: Gráficos 3D, pairplots.
+            - Técnicas Avanzadas: Análisis de componentes principales (PCA).
+
+4. Identificación de Tendencias y Patrones 🧩
+
+            - Agrupamiento: K-means, agrupamiento jerárquico.
+            - Series Temporales: Gráficos de líneas, descomposiciones estacionales.
+
+5. Validación de Hipótesis 📜
+
+            - Pruebas Estadísticas: t-tests, Chi-cuadrado, ANOVA.
+
+6. Visualización de Resultados 📊
+
+            - Dashboards: Tableros con hallazgos clave.
+            - Reportes: Síntesis de hallazgos, métricas y visualizaciones.
+
+7. Insights y Recomendaciones 💡
+
+            - Interpretación: Convierte hallazgos en insights accionables.
+            - Recomendaciones: Pasos a seguir basados en insights.
